@@ -1,0 +1,9 @@
+[package]
+version = "0.1.0"
+name = "spdemo-program"
+edition = "2021"
+
+[dependencies]
+alloy-sol-types = { workspace = true }
+sp1-zkvm = "2.0.0"
+spdemo-lib = { path = "../lib" }
